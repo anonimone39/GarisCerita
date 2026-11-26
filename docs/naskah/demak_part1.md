@@ -1,19 +1,21 @@
 # PART 1 – Setelah Majapahit: Lahirnya Demak
 
-Durasi: sekitar 1 menit (10 kalimat, sekitar 115 kata)
+Durasi: sekitar 1 menit (10 kalimat)
 Format: 9:16, narasi Indonesia (suara Ardi), gaya stickman yang sama dengan seri Majapahit dan Cabai.
 
 ## Narasi voice-over
+
+Memakai versi yang paling umum dipakai di buku sejarah sekolah di Indonesia (permintaan pengguna), bukan versi para peneliti yang masih berdebat.
 
 1. Bagaimana kerajaan terbesar di Nusantara bisa runtuh, dan siapa yang menggantikannya?
 2. Setelah Perang Paregreg dan perebutan takhta yang berulang, Majapahit perlahan kehilangan kekuatannya.
 3. Para adipati di pesisir utara Jawa pun mulai berjalan sendiri, sambil menikmati untung dari perdagangan laut.
 4. Salah satunya adalah Demak, sebuah bandar kecil yang ramai oleh kapal dagang dari berbagai negeri.
-5. Menurut tradisi dalam Babad Tanah Jawi, pemimpinnya bernama Raden Patah, putra raja Majapahit dari seorang putri Tionghoa.
-6. Para sejarawan masih memperdebatkan asal-usulnya, tetapi mereka sepakat bahwa Demak tumbuh menjadi kekuatan baru di Jawa.
-7. Tahun 1478 sering dipakai sebagai penanda berakhirnya Majapahit, meski sebagian sejarawan menilai serangan datang dari keluarga penguasa Daha, bukan dari Demak.
-8. Sisa Majapahit masih bertahan hingga sekitar tahun 1527, ketika Demak akhirnya menjadi penguasa yang tak tertandingi.
-9. Demak dikenal sebagai kerajaan Islam pertama di Jawa, dan para Wali Songo menurut tradisi turut membantu menyebarkannya.
+5. Pemimpinnya bernama Raden Patah, putra Brawijaya V, raja terakhir Majapahit, dari seorang putri Tionghoa.
+6. Dengan dukungan para adipati pesisir, ia memimpin Demak keluar dari bayang-bayang Majapahit.
+7. Pada tahun 1478, Majapahit runtuh, dan Raden Patah mendirikan Kesultanan Demak.
+8. Demak pun menjadi kerajaan Islam pertama di Jawa.
+9. Para Wali Songo membantu menyebarkan Islam dan membangun Masjid Agung Demak.
 10. Tetapi kekuatan baru ini segera bertemu lawan dari seberang lautan: kapal-kapal asing bersenjata meriam.
 
 ## Arahan adegan stickman
@@ -22,10 +24,10 @@ Format: 9:16, narasi Indonesia (suara Ardi), gaya stickman yang sama dengan seri
 2. Dua stickman bangsawan berebut mahkota. Mahkota jatuh dan retak.
 3. Peta Jawa, pesisir utara menyala satu per satu seperti titik-titik pelabuhan. Kapal dagang berdatangan.
 4. Bandar Demak: dermaga, karung dagangan, kapal berlabuh. Label "DEMAK".
-5. Raden Patah muncul dengan tulisan "MENURUT TRADISI". Gulungan Babad Tanah Jawi terbuka.
-6. Dua sejarawan stickman berdebat di depan gulungan, tanda tanya melayang. Lalu bendera Demak naik.
-7. Angka "1478" muncul di atas istana Majapahit. Panah menunjuk Daha, lalu tanda tanya di atas Demak.
-8. Istana Majapahit mengecil di cakrawala. Tahun "± 1527" muncul, Demak membesar.
+5. Raden Patah muncul dengan label "RADEN PATAH", di sampingnya raja bermahkota emas berlabel "BRAWIJAYA V".
+6. Para adipati pesisir mengangkat tangan mendukung, Raden Patah melangkah keluar dari bayangan istana Majapahit.
+7. Angka "1478" muncul, istana Majapahit retak dan runtuh, bendera Demak naik.
+8. Tulisan "KERAJAAN ISLAM PERTAMA DI JAWA" muncul di atas peta Jawa dengan Demak menyala.
 9. Masjid Agung Demak muncul, sembilan siluet Wali Songo berbaris, lalu cahaya kecil menyebar ke peta Jawa.
 10. Di laut utara, siluet kapal asing bermeriam mendekat. Meriam menembak. Teks: "BERSAMBUNG KE PART 2".
 
@@ -33,18 +35,16 @@ Format: 9:16, narasi Indonesia (suara Ardi), gaya stickman yang sama dengan seri
 
 Create a 2D minimalist stickman educational animation about the end of the Majapahit kingdom and the rise of the Demak Sultanate. Show a cracked Majapahit palace, nobles fighting over a crown, northern Java coastal ports lighting up on a simple map, and merchant ships arriving at Demak harbor. Show Raden Patah with an old chronicle scroll, historians arguing with question marks, the year 1478 and the year 1527 on screen, the Great Mosque of Demak with nine Wali Songo silhouettes, and a foreign armed ship approaching at the end. Clean black outlines, bright flat colors, consistent stickman characters, historical documentary style, 9:16.
 
-## Catatan fakta (untuk diperiksa sebelum produksi)
+## Catatan fakta
 
-| Klaim di naskah | Keadaan sumber | Cara naskah menanganinya |
-|---|---|---|
-| Raden Patah putra raja Majapahit dan putri Tionghoa | Hanya dari Babad Tanah Jawi. Ricklefs membedakannya dari tokoh "Cek-ko-po" dan menilai asal-usulnya tidak pasti | Ditulis "menurut tradisi", lalu dikatakan masih diperdebatkan (kalimat 5 dan 6) |
-| 1478 akhir Majapahit | Penanda konvensional. Banyak sumber menyebut serangan keluarga Girindrawardhana dari Daha, bukan Demak | Kalimat 7 menyebut kedua versi |
-| Tahun berdirinya Demak | Sumber menyebut 1475, 1478, atau sekitar 1500 | Tidak disebut tahun berdiri |
-| Sisa Majapahit bertahan sampai sekitar 1527 | Konflik Demak dengan Daha disebut berlangsung hingga 1527, dan ada sumber yang menyebut Demak mengalahkan Daha tahun 1518 | Ditulis "sekitar tahun 1527" |
-| Wali Songo membantu Demak | Berasal dari tradisi, sebagian peran dan penanggalan tidak pasti | Ditulis "menurut tradisi" |
-| Masjid Agung Demak | Tidak ada di narasi. Hanya ada di gambar adegan 9 | Penanggalan dari ornamen (sekitar 1479) hanya perkiraan, jangan disebut di narasi |
+Versi yang dipakai: **Raden Patah putra Brawijaya V dan putri Tionghoa, Majapahit runtuh dan Demak berdiri tahun 1478, Demak kerajaan Islam pertama di Jawa, Wali Songo membantu.** Ini versi yang paling umum di buku pelajaran dan dalam tradisi (Babad Tanah Jawi, sengkala "sirna ilang kertaning bumi" = 1478).
 
-Sumber pengecekan: [Raden Patah](https://en.wikipedia.org/wiki/Raden_Patah), [Demak–Majapahit conflicts](https://en.wikipedia.org/wiki/Demak%E2%80%93Majapahit_conflicts), [Girindrawardhana](https://en.wikipedia.org/wiki/Girindrawardhana), [Demak Sultanate](https://en.wikipedia.org/wiki/Demak_Sultanate). Semuanya Wikipedia, jadi sebaiknya dicek ulang dengan Ricklefs, *A History of Modern Indonesia*, dan sumber akademik berbahasa Indonesia.
+Perlu diketahui, versi ini bukan kesepakatan para peneliti:
+- Asal Raden Patah hanya dari Babad Tanah Jawi. Ricklefs menilainya tidak pasti.
+- Banyak sumber menyebut serangan 1478 dilakukan keluarga Girindrawardhana dari Daha, bukan Demak.
+- Tahun berdirinya Demak di sumber lain 1475 atau sekitar 1500, dan konflik dengan sisa Majapahit berlanjut hingga sekitar 1527.
+
+Sumber pengecekan: [Raden Patah](https://en.wikipedia.org/wiki/Raden_Patah), [Demak–Majapahit conflicts](https://en.wikipedia.org/wiki/Demak%E2%80%93Majapahit_conflicts), [Girindrawardhana](https://en.wikipedia.org/wiki/Girindrawardhana), [Demak Sultanate](https://en.wikipedia.org/wiki/Demak_Sultanate). Semuanya Wikipedia, jadi sebaiknya dicek ulang dengan Ricklefs, *A History of Modern Indonesia*.
 
 ## Rencana serial
 
