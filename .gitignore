@@ -1,0 +1,13 @@
+# Hasil pemasangan (dibuat ulang oleh scripts/pasang.sh)
+kit/node_modules/
+kit/.npm-cache/
+kit/.venv/
+kit/models/
+# Path khusus mesin, dibuat oleh scripts/pasang.sh
+skills/stick-figure/engine/kitpath.txt
+# Video dan hasil render tidak ikut git (simpan di Releases)
+*.mp4
+*.mov
+*.wav
+**/stills/
+.DS_Store
