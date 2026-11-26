@@ -32,7 +32,7 @@ brew install git gh node ffmpeg python@3.12
 
 ### 2. Login GitHub
 
-Repo ini private. Login dengan akun `TanyaPapa`:
+Repo ini ada di akun `anonimone39`. Kalau repo public, clone tidak perlu login, tapi login tetap perlu untuk `git push`. Login dengan akun `anonimone39`:
 
 ```bash
 gh auth login
@@ -41,7 +41,7 @@ gh auth login
 Kalau ada lebih dari satu akun:
 
 ```bash
-gh auth switch --user TanyaPapa
+gh auth switch --user anonimone39
 ```
 
 ```bash
@@ -53,7 +53,7 @@ gh auth setup-git
 Folder `~/reels/Project` harus belum ada atau masih kosong.
 
 ```bash
-git clone https://github.com/TanyaPapa/video-majapahit.git ~/reels/Project
+git clone https://github.com/anonimone39/GarisCerita.git ~/reels/Project
 ```
 
 ### 4. Pasang dependensi dan skill
@@ -76,7 +76,9 @@ Skrip ini aman dijalankan ulang. Yang dipasang:
 
 Versi yang terbukti jalan (26 November 2026, macOS 26, Apple Silicon): Node 22, ffmpeg 8.1, Python 3.12, kokoro-onnx 0.6.1, sherpa-onnx 2.0.3, edge-tts 7.3.1, numpy 2.5.5, scipy 1.18.1, soundfile 0.14.0. Versi paket Python tidak dikunci di `kit/setup.sh`; kalau rilis baru bermasalah, pasang versi di atas.
 
-### 5. Unduh video cadangan
+### 5. Unduh video cadangan (opsional)
+
+Release `backup-2026-11-26` masih ada di repo lama `TanyaPapa/video-majapahit` dan belum dipindah ke `GarisCerita`. Langkah ini hanya perlu kalau Anda ingin video lama; untuk membuat video baru, lewati saja. Kalau sudah dipindah, ganti `TanyaPapa/video-majapahit` di bawah dengan `anonimone39/GarisCerita`.
 
 ```bash
 gh release download backup-2026-11-26 --repo TanyaPapa/video-majapahit --dir ~/reels/Upload --skip-existing
@@ -106,7 +108,7 @@ Aturan folder dan cara lengkap ada di [README.md](README.md). Ringkasnya:
 Sekali saja di Mac baru, atur identitas commit di repo ini:
 
 ```bash
-cd ~/reels/Project && git config user.name TanyaPapa && git config user.email 361372270+TanyaPapa@users.noreply.github.com
+cd ~/reels/Project && git config user.name anonimone39 && git config user.email anonimone39@users.noreply.github.com
 ```
 
 Setiap selesai bekerja (skrip pertama menyalin perubahan engine skill ke repo):
@@ -126,7 +128,7 @@ cd ~/reels/Project && git commit -m "Jelaskan perubahan" && git push
 Video tidak ikut `git` (diabaikan oleh `.gitignore`). Unggah video baru ke Releases:
 
 ```bash
-gh release upload backup-2026-11-26 ~/reels/Upload/nama-video-upload.mp4 --repo TanyaPapa/video-majapahit
+gh release upload backup-2026-11-26 ~/reels/Upload/nama-video-upload.mp4 --repo anonimone39/GarisCerita
 ```
 
 ## Kendala

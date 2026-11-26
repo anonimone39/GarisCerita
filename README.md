@@ -12,7 +12,7 @@ Video animasi edukasi stickman tentang sejarah Kerajaan Majapahit. Gambar, anima
 | `paregreg` | Part 3: Perang Paregreg (1404-1406) | 9:16 | Inggris, subtitle Indonesia | [naskah](docs/naskah/paregreg.md) | [gambar](docs/preview/paregreg.jpg) |
 | `majapahit_full` | Majapahit versi penuh (sinematik, sekitar 6 menit) | 16:9 | Indonesia dan Inggris | [naskah](docs/naskah/majapahit_full.md) | [gambar](docs/preview/majapahit_full.jpg) |
 
-File video tidak disimpan di dalam repo. Video versi upload ada di `~/reels/Upload/`, dan cadangannya di halaman [Releases](https://github.com/TanyaPapa/video-majapahit/releases). Untuk melanjutkan pekerjaan, baca [CATATAN-LANJUTAN.md](CATATAN-LANJUTAN.md).
+File video tidak disimpan di dalam repo. Video versi upload ada di `~/reels/Upload/`, dan cadangannya di halaman [Releases](https://github.com/anonimone39/GarisCerita/releases). Untuk melanjutkan pekerjaan, baca [CATATAN-LANJUTAN.md](CATATAN-LANJUTAN.md).
 
 ## Struktur
 
@@ -36,7 +36,7 @@ File video tidak disimpan di dalam repo. Video versi upload ada di `~/reels/Uplo
 Butuh macOS, Node.js, ffmpeg, dan Python 3 (setup mengambil Python 3.12 lewat `uv` kalau perlu). Unduhan model suara sekitar 1 GB.
 
 ```bash
-git clone https://github.com/TanyaPapa/video-majapahit.git ~/reels/Project
+git clone https://github.com/anonimone39/GarisCerita.git ~/reels/Project
 bash ~/reels/Project/scripts/pasang.sh
 ```
 
