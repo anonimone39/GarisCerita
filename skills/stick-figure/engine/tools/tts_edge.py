@@ -20,7 +20,7 @@ async def speak(text, mp3):
     for attempt in range(5):
         try:
             words, got = [], False
-            com = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary")
+            com = edge_tts.Communicate(text, voice, rate=rate, boundary="WordBoundary", proxy=os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy"))
             with open(mp3, "wb") as f:
                 async for ch in com.stream():
                     if ch["type"] == "audio":
