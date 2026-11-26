@@ -1,0 +1,2 @@
+- [Reels folders and cleanup](reels-workflow-folders.md) — build in ~/reels/Project, only small upload videos go to ~/reels/Upload, delete the big files
+- [Indonesian stick-figure voice](stick-figure-indonesian-voice.md) — edge-tts Ardi, sentence-level sync, Majapahit series parts 1-3
