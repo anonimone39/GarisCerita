@@ -188,5 +188,5 @@ SHOTS.push({ start: 51.91, end: 60, tr: 'cut', draw(ctx, lt, t) {
   const b = backOut(sk(lt, 1.6, 2.1)); ctx.save(); ctx.translate(250, 1560); ctx.scale(b, b); drawBowl(ctx, 0, 0, .8, t, { sambal: 1 }); ctx.restore();
   const g = backOut(sk(lt, 2.0, 2.5)); ctx.save(); ctx.translate(820, 1600); ctx.scale(g, g); drawGeprek(ctx, 0, 0, .8, t); ctx.restore();
   overlay(ctx, () => { kinetic(ctx, 'MENGUBAH WAJAH', 540, 330, 100, lt, { delay: 1.96, col: '#fff' }); kinetic(ctx, 'KULINER INDONESIA', 540, 460, 84, lt, { delay: 2.7, col: '#ffd23a', pulse: true });
-    const p = backOut(sk(lt, 5.2, 5.7)); ctx.save(); ctx.translate(540, 1760); ctx.scale(p, p); rrect(ctx, -380, -60, 760, 120, 60); fillStroke(ctx, '#e0392f', 7); text(ctx, 'SEJARAH CABAI - PART 5', 0, 0, 44, '#fff'); ctx.restore(); });
+    const p = backOut(sk(lt, 5.2, 5.7)); ctx.save(); ctx.translate(540, 1760); ctx.scale(p, p); rrect(ctx, -380, -60, 760, 120, 60); fillStroke(ctx, '#e0392f', 7); text(ctx, 'BERSAMBUNG KE PART 6', 0, 0, 44, '#fff'); ctx.restore(); });
 } });

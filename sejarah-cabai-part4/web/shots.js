@@ -197,5 +197,5 @@ SHOTS.push({ start: 47.49, end: 60, tr: 'cut', draw(ctx, lt, t) {
   drawCobek(ctx, 540, 1780, .7, t);
   for (let i = 0; i < 5; i++) { const ph = (lt * .5 + i * .2) % 1; heart(ctx, 200 + i * 170, 1050 - ph * 260, .7, '#e0392f', Math.sin(ph * Math.PI) * sk(lt, 1.0, 1.4)); }
   overlay(ctx, () => { kinetic(ctx, 'ABAD KE-16', 540, 330, 120, lt, { delay: 1.39, col: '#ffd23a', pulse: true });
-    const k = backOut(sk(lt, 6.4, 6.9)); ctx.save(); ctx.translate(540, 480); ctx.scale(k, k); rrect(ctx, -380, -60, 760, 120, 60); fillStroke(ctx, '#e0392f', 7); text(ctx, 'SEJARAH CABAI - PART 4', 0, 0, 44, '#fff'); ctx.restore(); });
+    const k = backOut(sk(lt, 6.4, 6.9)); ctx.save(); ctx.translate(540, 480); ctx.scale(k, k); rrect(ctx, -380, -60, 760, 120, 60); fillStroke(ctx, '#e0392f', 7); text(ctx, 'BERSAMBUNG KE PART 5', 0, 0, 44, '#fff'); ctx.restore(); });
 } });
