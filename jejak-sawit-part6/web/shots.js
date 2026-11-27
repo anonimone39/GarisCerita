@@ -211,3 +211,6 @@ function spotlight(ctx, t) { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.save(); ctx
 // SHOTS.push (scene 6)
 // SHOTS.push (scene 7)
 // SHOTS.push (scene 8)
+// SHOTS.push (scene 9)
+// SHOTS.push (scene 10)
+// SHOTS.push (scene 11)
