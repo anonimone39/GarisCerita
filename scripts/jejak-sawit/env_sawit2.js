@@ -93,3 +93,12 @@ function plotsProp(ctx, x, y, s, t = 0) {
 }
 function droneProp(ctx, x, y, s, t = 0) { ctx.save(); ctx.translate(x, y + Math.sin(t * 3) * 6); ctx.scale(s, s); rrect(ctx, -40, -14, 80, 28, 10); fillStroke(ctx, '#3a3f4a', 6); for (const sx of [-1, 1]) { line(ctx, sx * 40, -4, sx * 90, -30, 6, '#3a3f4a'); ellipse(ctx, sx * 90, -34, 44, 8 + Math.abs(Math.sin(t * 30)) * 6); fillStroke(ctx, 'rgba(180,200,220,.8)', 4); } circle(ctx, 0, 22, 10); fillStroke(ctx, '#2f63c9', 4); ctx.restore(); }
 function tabletProp(ctx, x, y, s, t = 0) { ctx.save(); ctx.translate(x, y); ctx.scale(s, s); rrect(ctx, -90, -120, 180, 240, 18); fillStroke(ctx, '#3a3f4a', 7); rrect(ctx, -76, -104, 152, 208, 8); fillStroke(ctx, '#bfe6f8', 3); const bars = [.4, .7, .5, .9]; bars.forEach((b, i) => { rrect(ctx, -56 + i * 30, 70 - b * 120 * (.8 + .2 * Math.sin(t * 2 + i)), 20, b * 120, 4); fillStroke(ctx, i % 2 ? '#3fa35b' : '#e07a1a', 3); }); ctx.restore(); }
+function flagProp(ctx, x, y, s, t, kind = 'maja', hgt = 360) {
+  // Merah Putih on a pole
+  ctx.save(); ctx.translate(x, y); ctx.scale(s, s);
+  rrect(ctx, -6, -hgt, 12, hgt, 5); fillStroke(ctx, '#7a5230', 5);
+  const w = 190, h = 110, top = -hgt + 10, wave = i => Math.sin(t * 5 + i * .8) * 9 * (i / 8);
+  const band = (y0, y1, col) => { ctx.beginPath(); for (let i = 0; i <= 8; i++) { const X = 6 + i * w / 8; i ? ctx.lineTo(X, top + y0 + wave(i)) : ctx.moveTo(X, top + y0); } for (let i = 8; i >= 0; i--) ctx.lineTo(6 + i * w / 8, top + y1 + wave(i)); ctx.closePath(); fillStroke(ctx, col, 5); };
+  band(0, h / 2, '#d8312b'); band(h / 2, h, '#f6f1e8');
+  ctx.restore();
+}
