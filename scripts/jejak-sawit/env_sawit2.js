@@ -68,7 +68,7 @@ function sealBadge(ctx, x, y, s, label = 'ISPO', t = 0) {
 function calendarCard(ctx, x, y, s, year = '1911', a = 1) {
   if (a <= 0) return; ctx.save(); ctx.translate(x, y); ctx.globalAlpha = clamp(a); ctx.scale(s * backOut(clamp(a)), s * backOut(clamp(a)));
   rrect(ctx, -200, -180, 400, 360, 24); fillStroke(ctx, '#fff8e6', 8); rrect(ctx, -200, -180, 400, 90, [24, 24, 0, 0]); fillStroke(ctx, '#e0392f', 8); for (const cx of [-110, 110]) { rrect(ctx, cx - 10, -210, 20, 60, 8); fillStroke(ctx, '#6a5a4a', 5); }
-  text(ctx, year, 0, 40, 140, INK, 'transparent', 0, 'Poppins', 700); ctx.restore();
+  text(ctx, year, 0, 40, String(year).length > 5 ? 84 : 140, INK, 'transparent', 0, 'Poppins', 700); ctx.restore();
 }
 function mapSheet(ctx, x, y, w, h, dots = 6, t = 0) {
   ctx.save(); ctx.translate(x, y); rrect(ctx, -w / 2, -h / 2, w, h, 14); fillStroke(ctx, '#f3e3b8', 7);
